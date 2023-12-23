@@ -1,3 +1,8 @@
+# Type "python math.py" to start the game
+# It might be a little frustrating and confusing to play the game considering it is hard to keep of track of row and column for every chance 
+
+
+
 def grid(x):
     for i in x:
         print(" | ".join(i))
@@ -53,5 +58,4 @@ def main():
 
         presentPlayer = 'O' if presentPlayer == 'X' else 'X'
 
-if __name__ == "__main__":
-    main()
+main()
